@@ -1,0 +1,76 @@
+@font-face {
+    font-family: AMAZR;
+    src: url("/fontesLoja/AMAZR___.TTF");
+}
+@font-face {
+    font-family: AMAZI;
+    src: url("/fontesLoja/AMAZI___.TTF");
+}
+@font-face {
+    font-family: AMAZB;
+    src: url("/fontesLoja/AMAZB___.TTF");
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: Heveltica, Arial, sans-serif;
+    background-color: #161616;
+    color: white;
+}
+#guia{
+    background-color: rgb(92, 92, 92);
+    padding: 10px;
+}
+#guia a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin: 0 30px 0 0;
+}
+.main article{
+    min-height: fit-content;
+}
+#logo{
+    height: 120px;
+}
+#lugar{
+    background-image: url(/libTremNaWeb/bar_interior.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+}
+#lugar p{
+    background-color: black;
+}
+#drinks{
+    height: 120px;
+    background-image: url(/libTremNaWeb/drinks_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#drinks p{
+    background-color: black;
+    position: relative;
+    bottom: 50px;
+    margin: 0 0 0 1%;
+
+}
+#drinks figure{
+    margin: 0 0 0 1%;
+    position: relative;
+    bottom: 50px;
+}
+.subTitle{
+    text-align: center;
+}
+#info{
+    display: flex;
+    flex-direction: row;
+}
+#info ul{
+    width: 100%;
+    list-style: none;
+}

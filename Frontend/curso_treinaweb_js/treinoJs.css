@@ -1,0 +1,16 @@
+body{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 5em 0 0 0;
+    font-size: 25px;
+}
+table, th, td, tr {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+}

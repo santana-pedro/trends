@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <img src="/logoprincipal.png" alt="Logo" id="logo">
+  <div class="login-container">
+    <h1>Login</h1>
+    <form> 
+      <section class="emailSection">
+        <label for="userLogin">Email/cpf:</label>
+        <input type="email" placeholder="Digite seu email ou cpf (apenas números)" id="userLogin" class="infoInput" maxlength="50" oninput="checkInput()"/>
+        <span id="userError"></span>
+      </section>
+      <section class="passwordSection">
+        <label for="passwordLogin">Password:</label>
+        <section class="passwordInputs">
+          <input type="password" id="passwordLogin" placeholder="Informe sua senha" class="infoInput" maxlength="50"/>
+          <span id="passwordError"></span>
+          <input type="checkbox" id="showPassword" value="Show" onclick="hidePassword()" class="hiddenCheckbox">
+          <label for="showPassword" class="checkboxImage"></label>
+        </section>
+      </section>
+      <section class="recoverySection">
+          <a href="https://www.google.com/" id="emailLink">Receber Link de acesso por Email</a>
+      </section>
+      <button type="submit" onclick="validateSubmit()" id="submit">Entrar</button>
+    </form>
+  </div>
+  <script src="./script.js">
+  </script>
+</body>
+</html>
